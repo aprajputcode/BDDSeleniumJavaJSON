@@ -1,0 +1,30 @@
+{
+   "login" : {
+    "UserName" :{
+      			"path" : "//input[@name='txtUsername']",
+      			"type" : "xpath"
+    			},
+
+    "PassWord" :{
+      			"path" : "//input[@name='txtPassword']",
+      			"type" : "xpath"
+    			},
+    "button" :{
+    			"path" : "//*[@id='btnLogin']",
+      			"type" : "xpath"
+    			},
+    "UserName2" :{
+      			"path" : "//*[@id='email']",
+      			"type" : "xpath"
+    			},
+
+    "PassWord2" :{
+      			"path" : "//*[@id='passwd']",
+      			"type" : "xpath"
+    			},
+    "button2" :{
+    			"path" : "//*[@id='SubmitLogin']",
+      			"type" : "xpath"
+    			}			
+    }
+}
