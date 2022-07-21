@@ -7,3 +7,4 @@ Feature: Find Element in WebSite
     When Text "wizkhalifaslimy@gmail.com" on name of textbox is "UserName2" 
     And Text "Selenium@123" on name of textbox is "PassWord2"
     Then click on "button2"
+    And user should on Dashboard and title is 'My account - My Store'

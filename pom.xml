@@ -25,6 +25,12 @@
       <scope>test</scope>
     </dependency>
     <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-core</artifactId>
+    <version>7.4.1</version>
+</dependency>
+
+    <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-bom</artifactId>
       <version>7.4.0</version>
