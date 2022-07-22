@@ -43,8 +43,9 @@ public class comman {
 	}
 	
 	
+	
 	//Screenshot Method
-	public static void screenshot(String methodname) throws IOException {
+	public void screenshot(String methodname) throws IOException {
 		TakesScreenshot sc=((TakesScreenshot)driver);
 		File DestFile=new File("./Screeenshot\\"+methodname+".png");
 		File SrcFile=sc.getScreenshotAs(OutputType.FILE);
@@ -122,5 +123,6 @@ public class comman {
 		}
 		return values;
 	}
+	
 
 }
